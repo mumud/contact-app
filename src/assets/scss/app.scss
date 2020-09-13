@@ -1,0 +1,85 @@
+.app {
+    display: grid;
+    place-items: center;
+    background-color: #dadbd3;
+    height: 100vh;
+
+    &__container {
+        background-color: #FAFBFD;
+        height: 100vh;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navigation {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+
+    &__input {
+        flex: 1;
+        padding: 10px;
+    }
+
+    &__iconButton {
+        padding: 10px;
+    }
+
+    &__divider {
+        height: 28px;
+        margin: 4px;
+    }
+}
+
+.contact {
+    flex: 1;
+    max-height: 85vh;
+    overflow: scroll;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px !important;
+        background-color: #FAFBFD !important;
+        font-weight: bold !important;
+    }
+
+    &__item {
+        background-color: #FFFFFF !important;
+        margin-bottom: 10px !important;
+        border-radius: 10px !important;
+        box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    }
+
+    &__addButton{
+        height: 35px;
+    }
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    
+    &__avatarContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__avatarImage {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    &__action {
+        margin: 10px 20px;
+    }
+}
